@@ -8,8 +8,8 @@ CFLAGS = $(OPTFLAGS)
 FFLAGS = $(OPTFLAGS)
 
 blas: $(FILES) $(HEADERS)
-	$(AR) libblas.a $(FILES)  
-	$(RANLIB) libblas.a
+	$(AR) blas.a $(FILES)  
+	$(RANLIB) blas.a
 
 clean:
 	- rm -f *.o
